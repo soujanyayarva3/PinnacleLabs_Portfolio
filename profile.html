@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soujanya | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #111827);
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: rgba(17, 24, 39, 0.9);
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+      color: #38bdf8;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      color: #38bdf8;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      color: #cbd5e1;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h3 {
+      color: #38bdf8;
+      margin-bottom: 20px;
+      font-size: 26px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #1e293b;
+      padding: 8px 12px;
+      border-radius: 20px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #38bdf8;
+      color: black;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .card a:hover {
+      background: #0ea5e9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(17, 24, 39, 0.9);
+      margin-top: 40px;
+    }
+
+    .highlight {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Soujanya</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Hello, I'm <span class="highlight">Soujanya</span> 👋</h2>
+  <p>Frontend Developer | Internship Projects | Web Development</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h3>About Me</h3>
+  <p>
+    I am Soujanya, a web developer working on internship projects like Calculator,
+    To-Do App, and Weather App using HTML, CSS, and JavaScript.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h3>Skills</h3>
+  <div class="skills">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">GitHub</div>
+    <div class="skill">Responsive Design</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h3>Projects</h3>
+
+  <div class="projects">
+
+    <div class="card">
+      <h4>To-Do App</h4>
+      <p>Task management web application.</p>
+      <a href="https://soujanyayarva3.github.io/PinnacleLabs_ToDoApp/" target="_blank">
+        Open Live Project
+      </a>
+    </div>
+
+    <div class="card">
+      <h4>Calculator App</h4>
+      <p>Simple calculator using HTML, CSS, JS.</p>
+      <a href="https://soujanyayarva3.github.io/PinnacleLabs_Calculator/" target="_blank">
+        Open Live Project
+      </a>
+    </div>
+
+    <div class="card">
+      <h4>Weather App</h4>
+      <p>Real-time weather forecasting app.</p>
+      <a href="https://soujanyayarva3.github.io/PinnacleLabs_WeatherApp/" target="_blank">
+        Open Live Project
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h3>Contact</h3>
+  <p>Email: soujanyayarva3@gmail.com</p>
+  <p>LinkedIn: https://www.linkedin.com/in/soujanya-yarva-95b579374</p>
+</section>
+
+<footer>
+  <p>© 2026 Soujanya. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
