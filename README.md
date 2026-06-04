@@ -1,5 +1,4 @@
 # PinnacleLabs_Portfolio
-# 🌐 Personal Portfolio Website
 
 A modern and responsive personal portfolio website built using HTML, CSS, and JavaScript. This project showcases my skills, projects, achievements, and contact information through a clean and professional user interface.
 
